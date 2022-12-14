@@ -1,0 +1,65 @@
+@import "general";
+@import "textos";
+
+
+a{
+    text-decoration: none;
+    background-color: $color;
+    font-size: 175%;
+}
+
+li{
+    font-size: 180%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: rgb(252, 216, 219);
+}
+.special{
+    background-color: rgb(252, 216, 219);
+    margin: 3rem;
+    padding: 3rem;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.form{
+    text-align: center;
+    font-size: 200%;
+    background-color:  rgb(250, 245, 246);
+    margin: 3rem;
+    padding: 3rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style-type: none;
+}
+
+.iframe{
+    justify-content: right;
+}
+
+img{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 20rem;
+}
+
+.moving{
+    overflow: hidden;
+}   
+
+.moving img{
+    transition: all 1.5s;
+}
+
+.moving:hover img{
+    transform: scale(1.5);
+}
